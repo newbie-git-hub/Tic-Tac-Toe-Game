@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    background-color: cadetblue;
+}
+.container{
+    height: 60vh;
+    width: 70vh;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 18vh;
+    width: 20vh;
+    background-color: yellow;
+    color: rgba(131, 46, 13,0.8);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+#actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+#reset-btn{
+    height: 20px;
+    width: 90px;
+    font-size: small;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.new-game-btn{
+    height: 20px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+.new-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.win-msg{
+    text-align: center;
+    font-size: 20px;
+    color: yellow;
+}
+.hide{
+   display: none;
+}
+.draw-msg{
+    text-align: center;
+    font-size: 20px;
+    color: yellow;
+}
