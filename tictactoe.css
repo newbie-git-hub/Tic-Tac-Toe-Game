@@ -76,3 +76,40 @@ body{
     font-size: 20px;
     color: yellow;
 }
+@media(min-width: 250px) and (max-width: 400px){
+    .container{
+        height: 65vh;
+        width: 70vw;
+    }
+    .btn{
+        height: 16vh;
+        width: 18vw;
+    }
+}
+@media(min-width: 200px) and (max-width: 250px){
+    .container{
+        height: 33vh;
+    }
+    .btn{
+        height: 10vh;
+        width: 30vw;
+    }
+}
+@media(min-width: 150px) and (max-width: 200px){
+    .container{
+        height: 20vh;
+    }
+    .btn{
+        height: 6vh;
+        width: 25vw;
+    }
+}
+@media(min-width: 100px) and (max-width: 150px){
+    .container{
+        height: 18vh;
+    }
+    .btn{
+        height: 5vh;
+        width: 24vw;
+    }
+}
